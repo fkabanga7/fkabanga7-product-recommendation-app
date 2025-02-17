@@ -4,7 +4,7 @@ import pandas as pd     # Import pandas for handling data in DataFrame format
 import random           # Import random for selecting random products
 
 # Define the file path to your CSV file (adjust the path as necessary)
-file_path = '/Users/FabriceDiamant/Downloads/sample-data.csv'
+file_path = 'sample-data.csv'
 
 # Read the CSV file into a pandas DataFrame
 df = pd.read_csv(file_path)
